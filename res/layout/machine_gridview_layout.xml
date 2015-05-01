@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dynamic_machine_gridview_selector"
+    android:paddingBottom="4dip" >
+
+    <com.itdog.gifview.MyGifView
+        android:id="@+id/ItemImage"
+        android:layout_width="128dp"
+        android:layout_height="128dp"/>
+
+    <TextView
+        android:id="@+id/ItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ItemImage"
+        android:layout_below="@+id/ItemImage"
+        android:layout_centerHorizontal="true"
+        android:text="TextView01" >
+    </TextView>
+
+</RelativeLayout>
